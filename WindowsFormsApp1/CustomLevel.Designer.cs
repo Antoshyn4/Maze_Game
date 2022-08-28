@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1
 {
-    partial class Form3
+    partial class CustomLevel
     {
         /// <summary>
         /// Required designer variable.

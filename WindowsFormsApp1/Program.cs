@@ -17,8 +17,8 @@ namespace WindowsFormsApp1
             Console.WriteLine("a");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());
-            Application.Run(new Form1());
+            Application.Run(new CustomLevel());
+            Application.Run(new Start());
             Application.Run(new Form2());
         }
     }

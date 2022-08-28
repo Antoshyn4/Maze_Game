@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form3 : Form
+    public partial class CustomLevel : Form
     {
         public int x;
         public int y;
@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
         private int size = 22;
         private int sch = 0;
 
-        public Form3()
+        public CustomLevel()
         {
             InitializeComponent();
             SetStyle(ControlStyles.AllPaintingInWmPaint |

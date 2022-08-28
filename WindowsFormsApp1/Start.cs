@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Start : Form
     {
         public int size = 17;
         public int TimeLeft = 10;
@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         Model model = new Model(1, 22);
         //private int level;
 
-        public Form1()
+        public Start()
         {
             InitializeComponent();
             SetStyle(ControlStyles.AllPaintingInWmPaint |
